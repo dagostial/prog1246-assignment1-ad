@@ -10,12 +10,12 @@ body {
 }
 
 header {
-    text-align: center;
     padding-bottom: 20px;
     border-bottom: 2px lightcoral;
 }
 
 .header-text {
+    text-align: center;
     border-bottom: 2px solid darkbrown;
     color: #5C4033;
 }
@@ -27,8 +27,9 @@ header img {
 }
 
 .logo {
-    height: 600px;
-    padding: 20px;
+    height: 150px;
+    width: 200px;
+
 }
 
 nav {
