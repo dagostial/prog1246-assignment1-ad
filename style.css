@@ -1,12 +1,92 @@
 .container {
     max-width: 1200px;
     width: 100%;
-    margin: 0 auto;
+    height: auto;
+    margin: 20px auto;
+    border: 2px solid #5C4033;
 }
 
 header {
     text-align: center;
-    border-bottom: 2px solid red;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    border-bottom: 2px lightcoral;
+}
+
+.header-text {
+    border-bottom: 2px solid darkbrown;
+    color: #5C4033;
+}
+
+
+header img {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 400px;
+    padding: 20px;
+}
+
+nav {
+    margin: 15px 0;
+    padding: 10px 0;
+    max-width: 1000px;
+    margin-inline: auto;
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    background-color: lightcoral;
+}
+
+.nav-container a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 0 10px;
+}
+.hero {
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+
+.hero img {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    margin-inline: auto;
+    display: block;
+    height: 400px;
 
 }
+
+
+.hero div p {
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black;
+    padding: 20px;
+}
+
+aside {
+    padding: 20x;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none; 
+    margin: 0px;
+
+}
+
+
+aside a {
+    text-decoration: none;
+}
+
+
