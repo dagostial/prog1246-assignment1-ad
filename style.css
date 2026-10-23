@@ -3,3 +3,10 @@
     width: 100%;
     margin: 0 auto;
 }
+
+header {
+    text-align: center;
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+
+}
