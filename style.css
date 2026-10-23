@@ -1,3 +1,6 @@
+body {
+    font-family: Arial;
+}
 .container {
     max-width: 1200px;
     width: 100%;
@@ -29,16 +32,19 @@ header img {
 }
 
 nav {
+    border-top: 2px solid#5C4033;
     margin: 15px 0;
     padding: 10px 0;
     max-width: 1000px;
     margin-inline: auto;
-    width: 100%;
+    width: 95%;
     display: flex;
-    gap: 100px;
+    gap: 80px;
     justify-content: center;
     background-color: lightcoral;
 }
+
+
 
 .nav-container a {
     text-decoration: none;
@@ -46,6 +52,11 @@ nav {
     color: white;
     padding: 0 10px;
 }
+
+.nav-container a:hover {
+    background-color: rgb(237, 106, 106);
+}
+
 .hero {
     position: relative;
     text-align: center;
@@ -73,20 +84,78 @@ nav {
     padding: 20px;
 }
 
-aside {
-    padding: 20x;
-    text-decoration: none;
+.div-container {
+    width: 95%;
+    margin: 0 auto;
+    display:flex;
+    gap: 20px;
+    border-top: 2px solid #5C4033;
+    padding-top: 20px;
 }
+
+aside {
+    padding: 20px;
+    width: 250px;
+    max-height: 400px;
+    background-color: lightcoral;
+}
+
+aside h2{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #5C4033;
+}
+
 
 ul {
     list-style-type: none; 
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    cursor: pointer;
 
 }
 
+
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
 
 aside a {
     text-decoration: none;
 }
 
+.mainpage {
+    flex: 1;
+    color: #5C4033;
+    
+}
+
+.mainpage h1 {
+    text-align: center;
+}
+
+.mainpage h2 {
+    text-align: center;
+}
+.p-container {
+    text-align: center;
+}
+ 
+.mainpage img {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    max-height: 800px;
+}
+ 
+ul li:hover {
+    background-color: rgb(237, 106, 106);
+}
 
